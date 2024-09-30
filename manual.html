@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual</title>
+    <link rel="icon" href="ESTRELLA.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilosuno.css">
+    <style>
+     
+        .swiper-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navigation-buttons {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+
+        .navigation-buttons button {
+            background-color: #ffffff3b;
+            color: #000000;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation-buttons button:hover {
+            background-color: #00ffff;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .swiper-slide {
+                flex-direction: column;
+            }
+            .navigation-buttons {
+                bottom: 10px;
+            }
+            .navigation-buttons button {
+                padding: 8px;
+                margin: 3px;
+            }
+        }
+
+        
+        @media (min-width: 601px) and (max-width: 1200px) {
+            .swiper-container {
+                height: 80vh;
+            }
+            .navigation-buttons button {
+                padding: 12px;
+                margin: 8px;
+            }
+        }
+
+      
+        @media (min-width: 1201px) {
+            .swiper-container {
+                height: 70vh;
+            }
+            .navigation-buttons button {
+                padding: 15px;
+                margin: 10px;
+            }
+        }
+
+       
+        @media (min-width: 1600px) {
+            .swiper-container {
+                height: 60vh;
+            }
+            .navigation-buttons button {
+                padding: 18px;
+                margin: 12px;
+            }
+        }
+    .btn-inicio {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #333;
+    z-index: 1000; /* Asegúrate de que el valor sea mayor que el de los otros elementos */
+}
+
+.btn-inicio img {
+    width: 110px;
+    height: 60px;
+    display: block;
+}
+
+
+        
+    </style>
+</head>
+<body>
+    <!-- Botón que lleva al inicio -->
+<a href="index.html" class="btn-inicio">
+    <img src="Logo Brasilia Bosa.png" alt="">
+</a>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide" data-content-url="HIMNO DEL COLEGIO">
+                <iframe src="PG1.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="SECRETARIA DE EDUCACION DISTRITAL">
+                <iframe src="PG2.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="MARCO LEGAL">
+                <iframe src="PG3.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="DECÁLOGO DE LA CONVIVENCIA BRASILISTA">
+                <iframe src="PG4.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Contenido">
+                <iframe src="PG5.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Manual de Convivencia - Página 6">
+                <iframe src="PG6.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="INTRODUCCIÓN">
+                <iframe src="PG7.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="MARCO NORMATIVO">
+                <iframe src="PG8.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="FUNCIÓN DEL MANUAL DE CONVIVENCIA">
+                <iframe src="PG9.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="GLOSARIO">
+                <iframe src="PG10.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Organización del Manual de Convivencia">
+                <iframe src="PG11.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Capítulo 1: Relación Comunidad Educativa Entorno Social">
+                <iframe src="PG12.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 2° RELACIÓN DOCENTE - ENTORNO SOCIAL">
+                <iframe src="PG13.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 3° RELACIÓN DIRECTOR DE CURSO – ENTORNO SOCIAL">
+                <iframe src="PG14.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 4°. RELACIÓN PADRES DE FAMILIA - ENTORNO SOCIAL">
+                <iframe src="PG15.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 6°. RELACIÓN DIRECTIVO - ENTORNO SOCIAL">
+                <iframe src="PG16.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 7°. RELACIÓN ADMINISTRATIVOS - ENTORNO SOCIAL">
+                <iframe src="PG17.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 8°. RELACIÓN DE OTROS SERVICIOS – ENTORNO SOCIAL">
+                <iframe src="PG18.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 9°. INSTANCIAS DE CONCERTACIÓN">
+                <iframe src="PG19.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 10°. PROCEDIMIENTO PARA LA SOLUCIÓN DE CONFLICTOS">
+                <iframe src="PG20.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 11°. PROMOCIÓN Y PREVENCIÓN">
+                <iframe src="PG21.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="ARTICULO 12°">
+                <iframe src="PG22.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="ARTICULO 13">
+                <iframe src="PG23.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 14°. PÉRDIDA DE CUPO">
+                <iframe src="PG24.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 15°. REQUISITOS PARA EL GRADO DE BACHILLER">
+                <iframe src="PG25.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 16º. REQUISITOS PARA SER PROCLAMADO BACHILLER, EN CEREMONIA DE GRADO">
+                <iframe src="PG26.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="CAPITULO 3">
+                <iframe src="PG27.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="CAPÍTULO 4. GOBIERNO ESCOLAR">
+                <iframe src="PG28.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Funciones del Personero">
+                <iframe src="PG29.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Gobierno estudiantil">
+                <iframe src="PG30.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="4. REMOCIÓN DEL CARGO O REVOCATORIA DEL MANDATO">
+                <iframe src="PG31.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="CAPITULO 5 EVALUACION Y PROMOCION">
+                <iframe src="PG32.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 21º. ÁMBITOS DE EVALUACIÓN Y PROMOCIÓN">
+                <iframe src="PG33.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Criterios de Evaluación y Promoción">
+                <iframe src="PG34.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="Artículo 25º. Estrategias de Valoración Integral de los Estudiantes">
+                <iframe src="PG35.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG36.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG37.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG38.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG39.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG40.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG41.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="swiper-slide" data-content-url="">
+                <iframe src="PG42.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        
+        <div class="navigation-buttons">
+            <button onclick="goToPreviousPage()">&#60;</button>
+            <button class="next-button" onclick="goToNextPage()">&#62;</button>
+        </div>
+    </div>
+    
+    <audio id="pageChangeSound" src="" preload="auto"></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth: 500,
+                modifier: 1,
+                slideShadows: true,
+                rotate: 0,
+                stretch: 0,
+            },
+            on: {
+                slideChange: function () {
+                    var audio = document.getElementById("pageChangeSound");
+                    audio.play();
+                },
+            },
+        });
+    
+        function goToPreviousPage() {
+            swiper.slidePrev();
+        }
+    
+        function goToNextPage() {
+            swiper.slideNext();
+        }
+    
+        // Evento para las teclas "A" y "S"
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "a" || event.key === "A") {
+                goToPreviousPage();
+            }
+            if (event.key === "d" || event.key === "D") {
+                goToNextPage();
+            }
+        });
+    </script>
+    
+    
+</body>
+</html>

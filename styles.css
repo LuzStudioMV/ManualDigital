@@ -1,0 +1,127 @@
+body {
+    background-image: url('Minimalista.jfif'); /* Cambia esta ruta a la ubicación de tu imagen */
+    background-size: cover; /* Esto asegura que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la pantalla */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana del navegador */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff52;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.356); /* Color de fondo semitransparente para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.question-container, .answers-container {
+    margin-bottom: 20px;
+}
+
+.question {
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+}
+
+.question h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.answers-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+li.correct {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+li.incorrect {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+/* Estilo para el contenedor de resultados */
+.result-container {
+    display: none; /* Inicialmente oculto */
+    padding: 20px;
+    background-color: #d4edda; /* Verde claro */
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-container p {
+    font-size: 1.2em;
+    color: #155724;
+}
+/* Estilo para el botón Siguiente */
+#next-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Efecto al pasar el mouse por encima del botón */
+#next-button:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+/* Efecto de clic */
+#next-button:active {
+    background-color: #1e7e34;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+}

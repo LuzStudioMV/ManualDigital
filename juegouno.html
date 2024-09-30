@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ESTRELLA.ico" type="image/x-icon">
+</head>
+<style>
+    .btn-inicio {
+position: fixed;
+top: 20px;
+left: 20px;
+background-color: transparent;
+border: none;
+cursor: pointer;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+color: #333;
+z-index: 1000; /* Asegúrate de que el valor sea mayor que el de los otros elementos */
+}
+
+.btn-inicio img {
+width: 110px;
+height: 60px;
+display: block;
+}
+
+</style>
+<body>
+<a href="menujuego.html" class="btn-inicio">
+    <img src="Logo Brasilia Bosa.png" alt="">
+</a>
+    <div class="container">
+        <header>
+            <h1>Juego de Preguntas</h1>
+        </header>
+        <main>
+            <div class="question-container">
+                <div class="question" id="question">
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="answers-container">
+                <ul id="answers">
+                </ul>
+            </div>
+            <button id="next-button" onclick="nextQuestion()">Siguiente</button>
+            <div id="result" class="result-container">
+                <p id="result-text"></p>
+            </div>
+        </main>
+    </div>
+    <script src="scriptuno.js"></script>
+</body>
+</html>
